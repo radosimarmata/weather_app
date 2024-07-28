@@ -27,7 +27,7 @@ def get_locations():
     })
 
   with open('data_location.json', 'w', encoding='utf-8') as f:
-    json.dump(data_location, f, ensure_ascii=False, indent=4)
+    json.dump(data_location, f, ensure_ascii=False, indent=2)
 
 def display_location(data_location):
   print("\nDaftar Lokasi:")
