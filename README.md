@@ -1,5 +1,5 @@
 # Weather App
-Weather App adalah aplikasi untuk mencari dan menampilkan prakiraan cuaca di berbagai lokasi di Indonesia menggunakan data dari BMKG. Aplikasi ini dapat mengambil data lokasi dan prakiraan cuaca dari situs web BMKG, serta menyimpannya dalam format JSON.
+Weather App adalah aplikasi untuk mencari dan menampilkan prakiraan cuaca di berbagai lokasi di Indonesia menggunakan data dari [BMKG](https://www.bmkg.go.id/). Aplikasi ini dapat mengambil data lokasi dan prakiraan cuaca dari situs web BMKG, serta menyimpannya dalam format JSON.
 
 ## Fitur
 - Mengambil daftar lokasi cuaca dari situs BMKG.
@@ -49,4 +49,4 @@ weather-app/
 ```
 
 ## Sumber Data
-Data prakiraan cuaca diambil dari situs [BMKG](https://data.bmkg.go.id/).
+Data prakiraan cuaca diambil dari situs [BMKG](https://data.bmkg.go.id/prakiraan-cuaca/).
