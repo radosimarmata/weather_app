@@ -39,12 +39,14 @@ python weather_app.py
 3. Jika Anda memilih 2, Anda dapat memilih lokasi dari daftar yang tersedia dan memasukkan nama file untuk menyimpan hasil prakiraan cuaca. Jika tidak memasukkan nama file, nama lokasi akan digunakan sebagai nama file dengan format huruf kecil dan spasi diganti dengan garis bawah.
 
 ## Struktur Proyek
+```
 weather-app/
 ├── result/                # Folder untuk menyimpan hasil prakiraan cuaca
 ├── data_location.json     # File JSON yang berisi daftar lokasi
 ├── weather_app.py         # Skrip utama aplikasi
 ├── requirements.txt       # File dependensi
 └── README.md              # Dokumentasi proyek
+```
 
 ## Sumber Data
 Data prakiraan cuaca diambil dari situs [https://data.bmkg.go.id/](BMKG).
