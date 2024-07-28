@@ -41,7 +41,9 @@ def display_location(data_location):
       print(f"Anda memilih: {data_location[choice -1]['Data']}")
       print(f"URL: {data_location[choice -1]['link']}")
       filename = input("Masukkan nama file untuk menyimpan hasil (tanpa ekstensi .json): ")
-      get_weather(data_location[choice -1]['link'], filename)
+      if not filename:
+        filename = data_location[choice - 1]['Data'].lower().replace(' ', '_')
+      get_weather(data_location[choice - 1]['link'], filename)
     elif choice == '0':
       print("Keluar dari pilihan lokasi")
     else:
