@@ -1,0 +1,282 @@
+[
+    {
+        "id": "1",
+        "Data": "Provinsi Aceh",
+        "Nama File": "DigitalForecast-Aceh.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Aceh.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:17 WIB",
+        "Ukuran Data": "274712 bytes"
+    },
+    {
+        "id": "2",
+        "Data": "Provinsi Bali",
+        "Nama File": "DigitalForecast-Bali.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Bali.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:40 WIB",
+        "Ukuran Data": "107999 bytes"
+    },
+    {
+        "id": "3",
+        "Data": "Provinsi Bangka Belitung",
+        "Nama File": "DigitalForecast-BangkaBelitung.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-BangkaBelitung.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:40 WIB",
+        "Ukuran Data": "120520 bytes"
+    },
+    {
+        "id": "4",
+        "Data": "Provinsi Banten",
+        "Nama File": "DigitalForecast-Banten.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Banten.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:11 WIB",
+        "Ukuran Data": "215692 bytes"
+    },
+    {
+        "id": "5",
+        "Data": "Provinsi Bengkulu",
+        "Nama File": "DigitalForecast-Bengkulu.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Bengkulu.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:59 WIB",
+        "Ukuran Data": "120103 bytes"
+    },
+    {
+        "id": "6",
+        "Data": "Provinsi DI Yogyakarta",
+        "Nama File": "DigitalForecast-DIYogyakarta.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-DIYogyakarta.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:35 WIB",
+        "Ukuran Data": "60023 bytes"
+    },
+    {
+        "id": "7",
+        "Data": "Provinsi DKI Jakarta",
+        "Nama File": "DigitalForecast-DKIJakarta.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-DKIJakarta.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:46 WIB",
+        "Ukuran Data": "72057 bytes"
+    },
+    {
+        "id": "8",
+        "Data": "Provinsi Gorontalo",
+        "Nama File": "DigitalForecast-Gorontalo.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Gorontalo.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:39 WIB",
+        "Ukuran Data": "72206 bytes"
+    },
+    {
+        "id": "9",
+        "Data": "Provinsi Jambi",
+        "Nama File": "DigitalForecast-Jambi.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Jambi.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:12 WIB",
+        "Ukuran Data": "131851 bytes"
+    },
+    {
+        "id": "10",
+        "Data": "Provinsi Jawa Barat",
+        "Nama File": "DigitalForecast-JawaBarat.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-JawaBarat.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:46 WIB",
+        "Ukuran Data": "359494 bytes"
+    },
+    {
+        "id": "11",
+        "Data": "Provinsi Jawa Tengah",
+        "Nama File": "DigitalForecast-JawaTengah.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-JawaTengah.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:14 WIB",
+        "Ukuran Data": "419480 bytes"
+    },
+    {
+        "id": "12",
+        "Data": "Provinsi Jawa Timur",
+        "Nama File": "DigitalForecast-JawaTimur.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-JawaTimur.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:30 WIB",
+        "Ukuran Data": "455825 bytes"
+    },
+    {
+        "id": "13",
+        "Data": "Provinsi Kalimantan Barat",
+        "Nama File": "DigitalForecast-KalimantanBarat.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-KalimantanBarat.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:43 WIB",
+        "Ukuran Data": "179850 bytes"
+    },
+    {
+        "id": "14",
+        "Data": "Provinsi Kalimantan Selatan",
+        "Nama File": "DigitalForecast-KalimantanSelatan.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-KalimantanSelatan.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:57 WIB",
+        "Ukuran Data": "155998 bytes"
+    },
+    {
+        "id": "15",
+        "Data": "Provinsi Kalimantan Tengah",
+        "Nama File": "DigitalForecast-KalimantanTengah.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-KalimantanTengah.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:35 WIB",
+        "Ukuran Data": "167711 bytes"
+    },
+    {
+        "id": "16",
+        "Data": "Provinsi Kalimantan Timur",
+        "Nama File": "DigitalForecast-KalimantanTimur.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-KalimantanTimur.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:40 WIB",
+        "Ukuran Data": "108842 bytes"
+    },
+    {
+        "id": "17",
+        "Data": "Provinsi Kalimantan Utara",
+        "Nama File": "DigitalForecast-KalimantanUtara.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-KalimantanUtara.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:40:34 WIB",
+        "Ukuran Data": "68848 bytes"
+    },
+    {
+        "id": "18",
+        "Data": "Provinsi Kepulauan Riau",
+        "Nama File": "DigitalForecast-KepulauanRiau.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-KepulauanRiau.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:13 WIB",
+        "Ukuran Data": "84932 bytes"
+    },
+    {
+        "id": "19",
+        "Data": "Provinsi Lampung",
+        "Nama File": "DigitalForecast-Lampung.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Lampung.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:22 WIB",
+        "Ukuran Data": "179725 bytes"
+    },
+    {
+        "id": "20",
+        "Data": "Provinsi Maluku",
+        "Nama File": "DigitalForecast-Maluku.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Maluku.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:39 WIB",
+        "Ukuran Data": "121792 bytes"
+    },
+    {
+        "id": "21",
+        "Data": "Provinsi Maluku Utara",
+        "Nama File": "DigitalForecast-MalukuUtara.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-MalukuUtara.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:55 WIB",
+        "Ukuran Data": "132105 bytes"
+    },
+    {
+        "id": "22",
+        "Data": "Provinsi Nusa Tenggara Barat",
+        "Nama File": "DigitalForecast-NusaTenggaraBarat.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-NusaTenggaraBarat.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:35 WIB",
+        "Ukuran Data": "120222 bytes"
+    },
+    {
+        "id": "23",
+        "Data": "Provinsi Nusa Tenggara Timur",
+        "Nama File": "DigitalForecast-NusaTenggaraTimur.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-NusaTenggaraTimur.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:28 WIB",
+        "Ukuran Data": "266235 bytes"
+    },
+    {
+        "id": "24",
+        "Data": "Provinsi Papua",
+        "Nama File": "DigitalForecast-Papua.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Papua.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:40 WIB",
+        "Ukuran Data": "346637 bytes"
+    },
+    {
+        "id": "25",
+        "Data": "Provinsi Papua Barat",
+        "Nama File": "DigitalForecast-PapuaBarat.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-PapuaBarat.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:17 WIB",
+        "Ukuran Data": "132027 bytes"
+    },
+    {
+        "id": "26",
+        "Data": "Provinsi Riau",
+        "Nama File": "DigitalForecast-Riau.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Riau.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:54 WIB",
+        "Ukuran Data": "143867 bytes"
+    },
+    {
+        "id": "27",
+        "Data": "Provinsi Sulawesi Barat",
+        "Nama File": "DigitalForecast-SulawesiBarat.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SulawesiBarat.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:36 WIB",
+        "Ukuran Data": "72181 bytes"
+    },
+    {
+        "id": "28",
+        "Data": "Provinsi Sulawesi Selatan",
+        "Nama File": "DigitalForecast-SulawesiSelatan.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SulawesiSelatan.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:41 WIB",
+        "Ukuran Data": "276350 bytes"
+    },
+    {
+        "id": "29",
+        "Data": "Provinsi Sulawesi Tengah",
+        "Nama File": "DigitalForecast-SulawesiTengah.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SulawesiTengah.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:45 WIB",
+        "Ukuran Data": "132650 bytes"
+    },
+    {
+        "id": "30",
+        "Data": "Provinsi Sulawesi Tenggara",
+        "Nama File": "DigitalForecast-SulawesiTenggara.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SulawesiTenggara.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:39:03 WIB",
+        "Ukuran Data": "144690 bytes"
+    },
+    {
+        "id": "31",
+        "Data": "Provinsi Sulawesi Utara",
+        "Nama File": "DigitalForecast-SulawesiUtara.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SulawesiUtara.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:40:05 WIB",
+        "Ukuran Data": "156344 bytes"
+    },
+    {
+        "id": "32",
+        "Data": "Provinsi Sumatera Barat",
+        "Nama File": "DigitalForecast-SumateraBarat.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SumateraBarat.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:36 WIB",
+        "Ukuran Data": "227023 bytes"
+    },
+    {
+        "id": "33",
+        "Data": "Provinsi Sumatera Selatan",
+        "Nama File": "DigitalForecast-SumateraSelatan.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SumateraSelatan.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:55 WIB",
+        "Ukuran Data": "215875 bytes"
+    },
+    {
+        "id": "34",
+        "Data": "Provinsi Sumatera Utara",
+        "Nama File": "DigitalForecast-SumateraUtara.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-SumateraUtara.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 09:38:56 WIB",
+        "Ukuran Data": "382834 bytes"
+    },
+    {
+        "id": "35",
+        "Data": "Provinsi Indonesia",
+        "Nama File": "DigitalForecast-Indonesia.xml",
+        "link": "DataMKG/MEWS/DigitalForecast/DigitalForecast-Indonesia.xml",
+        "Tanggal Pemutakhiran": "20 Jul 2024, 20:55:32 WIB",
+        "Ukuran Data": "332149 bytes"
+    }
+]
