@@ -49,4 +49,4 @@ weather-app/
 ```
 
 ## Sumber Data
-Data prakiraan cuaca diambil dari situs [https://data.bmkg.go.id/](BMKG).
+Data prakiraan cuaca diambil dari situs [BMKG](https://data.bmkg.go.id/).
