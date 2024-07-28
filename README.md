@@ -43,7 +43,7 @@ python main.py
 weather-app/
 ├── result/                # Folder untuk menyimpan hasil prakiraan cuaca
 ├── data_location.json     # File JSON yang berisi daftar lokasi
-├── weather_app.py         # Skrip utama aplikasi
+├── main.py                # Skrip utama aplikasi
 ├── requirements.txt       # File dependensi
 └── README.md              # Dokumentasi proyek
 ```
