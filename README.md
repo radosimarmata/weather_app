@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Penggunaan
 1. Jalankan skrip utama.
 ```
-python weather_app.py
+python main.py
 ```
 2. Pilih salah satu opsi yang tersedia di menu:
 - Pilih 1 untuk mengambil daftar lokasi dari situs BMKG.
