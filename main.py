@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import xml.etree.ElementTree as ET
+import os
 
 base_url = "https://data.bmkg.go.id/"
 
@@ -39,7 +40,8 @@ def display_location(data_location):
     if 1 <= choice <= len(data_location):
       print(f"Anda memilih: {data_location[choice -1]['Data']}")
       print(f"URL: {data_location[choice -1]['link']}")
-      get_weather(data_location[choice -1]['link'])
+      filename = input("Masukkan nama file untuk menyimpan hasil (tanpa ekstensi .json): ")
+      get_weather(data_location[choice -1]['link'], filename)
     elif choice == '0':
       print("Keluar dari pilihan lokasi")
     else:
@@ -47,16 +49,16 @@ def display_location(data_location):
   else:
     print("Input tidak valid")
 
-def get_weather(link):
+def get_weather(link, filename):
   url = base_url + link
   response = requests.get(url)
   data_xml = response.content
 
   root = ET.fromstring(data_xml)
 
-  parse_forecast(root)
+  parse_forecast(root, filename)
 
-def parse_forecast(root):
+def parse_forecast(root, filename):
   forecast = root.find('forecast')
   issue = forecast.find('issue')
 
@@ -68,10 +70,12 @@ def parse_forecast(root):
   minute = issue.find('minute').text
   second = issue.find('second').text
 
-  print(f"timestamp: {timestamp}")
-  print(f"date: {year}-{month}-{day}")
-  print(f"time: {hour}:{minute}:{second}")
-  print('-' * 20)
+  weather_data = {
+    'timestamp': timestamp,
+    'date': f"{year}-{month}-{day}",
+    'time': f"{hour}:{minute}:{second}",
+    'areas': []
+  }
 
   namespaces = {'xml': 'http://www.w3.org/XML/1998/namespace'}
 
@@ -86,33 +90,37 @@ def parse_forecast(root):
     description = area.attrib.get('description', 'N/A')
     domain = area.attrib.get('domain', 'N/A')
 
-    print(f"")
-    print(f"area_id: {area_id}")
-    print(f"latitude: {latitude}")
-    print(f"longitude: {longitude}")
-    print(f"coordinate: {coordinate}")
-    print(f"type: {type}")
-    print(f"region: {region}")
-    print(f"level: {level}")
-    print(f"description: {description}")
-    print(f"domain: {domain}")
-
     name_en_element = area.find('name[@xml:lang="en_US"]', namespaces)
     name_id_element = area.find('name[@xml:lang="id_ID"]', namespaces)
     name_en = name_en_element.text
     name_id = name_id_element.text
 
-    print(f"name_en: {name_en}")
-    print(f"name_id: {name_id}")
+    area_data = {
+      'area_id': area_id,
+      'latitude': latitude,
+      'longitude': longitude,
+      'coordinate': coordinate,
+      'type': type,
+      'region': region,
+      'level': level,
+      'description': description,
+      'domain': domain,
+      'name_en': name_en,
+      'name_id': name_id,
+      'parameters': []
+    }
 
     for parameter in area.iter('parameter'):
       param_id = parameter.attrib.get('id','N/A')
       param_description = parameter.attrib.get('description', 'N/A')
       param_type = parameter.attrib.get('type', 'N/A')
 
-      print(f"  parameter_id: {param_id}")
-      print(f"  description: {param_description}")
-      print(f"  type: {param_type}")
+      param_data = {
+        'parameter_id': param_id,
+        'description': param_description,
+        'type': param_type,
+        'timeranges': []
+      }
 
       for timerange in parameter.iter('timerange'):
         time_type = timerange.attrib.get('type', 'N/A')
@@ -125,14 +133,28 @@ def parse_forecast(root):
         value = value_element.text
         unit = value_element.attrib.get('unit', 'N/A')
 
-        print(f"  Timerange type: {time_type}")
-        print(f"  Hours: {hours}")
-        print(f"  Date: {date}")
-        print(f"  Time: {time}")
-        print(f"  Value: {value} {unit}")
-        print('-' * 10)
+        timerange_data = {
+          'type': time_type,
+          'hours': hours,
+          'date': date,
+          'time': time,
+          'value': value,
+          'unit': unit
+        }
 
-      print('-' * 20)    
+        param_data['timeranges'].append(timerange_data)
+
+      area_data['parameters'].append(param_data)
+    weather_data['areas'].append(area_data)
+
+  if not os.path.exists('result'):
+    os.makedirs('result')
+  
+  filepath = os.path.join('result', f"{filename}.json")
+  with open(filepath, 'w', encoding='utf-8') as f:
+    json.dump(weather_data, f, ensure_ascii=False, indent=2)
+
+  print(f"Hasil cuaca telah disimpan ke {filepath}")
 
 def main():
   while True:
